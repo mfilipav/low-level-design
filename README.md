@@ -29,6 +29,7 @@ See directory [oop](oop/README.md) for more details.
 - [SOLID Principles with Code](https://blog.algomaster.io/p/solid-principles-explained-with-code)
 
 ## 🧩 Design Patterns
+Borrowed from https://refactoring.guru/design-patterns!!!
 
 | **Creational Patterns**                                                       | **Structural Patterns**                                         | **Behavioral Patterns**                                                               |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
