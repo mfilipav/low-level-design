@@ -1,7 +1,12 @@
 This repository contains resources to learn Low Level Design (LLD) / Object Oriented Design (OOD), and practice for typical interview questions.
 
+## ✅ [How to Answer a LLD Interview Problem](https://blog.algomaster.io/p/how-to-answer-a-lld-interview-problem)
+<img src="images/interview-template.png" width="350" height="250">
+
+See directory [lld-intro](lld-intro/README.md) directory for more
 
 ## 🧱 OOP Fundamentals
+See directory [oop](oop/README.md) for more details.
 - [Classes and Objects](https://algomaster.io/learn/lld/classes-and-objects)
 - [Enums](https://algomaster.io/learn/lld/enums)
 - [Interfaces](https://algomaster.io/learn/lld/interfaces)
@@ -54,9 +59,6 @@ This repository contains resources to learn Low Level Design (LLD) / Object Orie
 - [Sequence Diagram](https://blog.algomaster.io/p/4dd99bdc-5c35-4a80-bc53-1777cb57aa05)
 - [Activity Diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-activity-diagram/)
 - [State Machine Diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-state-machine-diagram/)
-
-## ✅ [How to Answer a LLD Interview Problem](https://blog.algomaster.io/p/how-to-answer-a-lld-interview-problem)
-<img src="images/interview-template.png" width="350" height="250">
 
 ## 💻 LLD Interview Problems
 ### Easy Problems
