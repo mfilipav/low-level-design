@@ -44,6 +44,35 @@ Borrowed from https://refactoring.guru/design-patterns!!!
 |                                                                               |                                                                 | [Memento](https://algomaster.io/learn/lld/memento)                           |
 |                                                                               |                                                                 | [Chain of Responsibility](https://algomaster.io/learn/lld/chain-of-responsibility) |
 
+
+### 1. Creational Patterns – How objects are created
+They abstract the instantiation process and help make your system independent of how its objects are created.
+```
+Singleton           Ensure a class has only one instance (use Global Object in Python)
+Factory Method      Delegate object creation to subclasses.
+Abstract Factory    Create families of related objects.
+Builder             Construct complex objects step-by-step.
+Prototype           Clone existing objects instead of creating new ones.
+```
+### 2. Structural Patterns - How objects are composed
+They help organize different classes and objects to form larger structures.
+```
+Adapter       Makes one interface compatible with another.
+Decorator     Adds new responsibilities to an object at runtime.
+Facade        Provides a simplified interface to a complex system.
+Composite     Treats individual and grouped objects uniformly.
+Proxy         Acts as a placeholder or access control for another object.
+```
+## 3. Behavioral Patterns - How objects interact
+They define how communication happens between objects.
+```
+Strategy          Enables selecting an algorithm at runtime.
+Observer          Notifies dependent objects of state changes.
+Command           Encapsulates a request as an object.
+State             Allows an object to change behavior based on internal state.
+Template Method   Defines the skeleton of an algorithm in a base class.
+```
+
 ### Resources for Design Patterns
 - [Head First Design Patterns](https://www.amazon.in/dp/9385889753)
   - [python by `dancergraham`](https://github.com/dancergraham/HeadFirstDesignPatterns_python/tree/main)

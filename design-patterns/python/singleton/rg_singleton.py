@@ -4,7 +4,7 @@ class SingletonMeta(type):
     possible methods include: base class, decorator, metaclass. We will use the
     metaclass because it is best suited for this purpose.
 
-    The same class behaves incorrectly in a multithreaded environment.
+    Note: the same class behaves incorrectly in a multithreaded environment.
     Multiple threads can call the creation method simultaneously and
     get several instances of Singleton class.
 
