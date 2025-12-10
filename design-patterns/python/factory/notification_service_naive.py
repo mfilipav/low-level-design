@@ -5,7 +5,7 @@ from .push_notification import PushNotification
 
 class NotificationServiceNaive:
     """Naive implementation without factory pattern (anti-pattern)"""
-    
+
     def send_notification(self, notification_type: str, message: str) -> None:
         if notification_type == "EMAIL":
             email = EmailNotification()

@@ -1,7 +1,7 @@
 from .eager_singleton import EagerSingleton
 from .lazy_singleton import LazySingleton
 from .thread_safe_singleton import ThreadSafeSingleton
-from .double_checked_singleton import DoubleCheckedSingleton
+from .thread_safe_double_checked_singleton import DoubleCheckedSingleton
 from .bill_pugh_singleton import BillPughSingleton
 from .enum_singleton import EnumSingleton
 

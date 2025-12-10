@@ -1,21 +1,27 @@
 # Design Patterns in Python
 
-This directory contains Python implementations of various design patterns, following the same examples and structure as the Java implementations.
+This directory contains Python implementations of various design patterns, following the same examples and structure as the python implementations.
 
 ## Implemented Patterns
 
 ### Creational Patterns
 - **[Adapter Pattern](adapter/)** - Convert interface of a class into another interface
-- **[Factory Method Pattern](factory/)** - Create objects without specifying exact classes
+- **[Factory Method Pattern (not pythonic)](factory/)** - Create objects without specifying exact classes. Distribute object creation responsibilities across the system. Also see https://refactoring.guru/design-patterns/factory-method
+
+<img src="img/factory.png" width="600">
+
+- **[Abstract Factory Pattern](abstractfactory/)** - Create families of related objects
+
+<img src="img/abstractfactory.png" width="600">
+
 - **[Builder Pattern](builder/)** - Construct complex objects step by step
-- **[Singleton Pattern](singleton/)** - Ensure only one instance of a class exists
+- **[Singleton Pattern (not pythonic)](singleton/)** - Ensure only one instance of a class exists
 
 ### Behavioral Patterns
 - **[Observer Pattern](observer/)** - Define one-to-many dependency between objects
 - **[Strategy Pattern](strategy/)** - Define family of algorithms and make them interchangeable
 
 ### Structural Patterns
-- **Abstract Factory Pattern** - Create families of related objects
 - **Bridge Pattern** - Separate abstraction from implementation
 - **Composite Pattern** - Compose objects into tree structures
 - **Decorator Pattern** - Add behavior to objects dynamically

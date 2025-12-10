@@ -4,7 +4,9 @@ from .notification import Notification
 
 
 class EmailNotificationCreator(NotificationCreator):
-    """Concrete Creator"""
-    
+    """Concrete Creator, a subclass that extends the abstract creator to
+    return an instance of a specific ConcreteProduct (EmailNotification).
+    """
+
     def create_notification(self) -> Notification:
         return EmailNotification()
