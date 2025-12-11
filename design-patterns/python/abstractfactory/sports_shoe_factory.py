@@ -7,9 +7,9 @@ from .shoe_lace import ShoeLace
 
 class SportsShoeFactory(ShoeFactory):
     """Concrete Factory for sports shoes"""
-    
+
     def create_sole(self) -> Sole:
         return BumpySole()
-    
+
     def create_shoe_lace(self) -> ShoeLace:
         return RoundShoeLace()

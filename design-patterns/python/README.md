@@ -10,7 +10,7 @@ This directory contains Python implementations of various design patterns, follo
 
 <img src="img/factory.png" width="600">
 
-- **[Abstract Factory Pattern](abstractfactory/)** - Create families of related objects
+- **[Abstract Factory Pattern (not pythonic)](abstractfactory/)** - Create families of related objects
 
 <img src="img/abstractfactory.png" width="600">
 
