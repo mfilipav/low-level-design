@@ -5,23 +5,31 @@ This directory contains Python implementations of various design patterns, follo
 ## Implemented Patterns
 
 ### Creational Patterns
-- **[Adapter Pattern](adapter/)** - Convert interface of a class into another interface
 - **[Factory Method Pattern (not pythonic)](factory/)** - Create objects without specifying exact classes. Distribute object creation responsibilities across the system. Also see https://refactoring.guru/design-patterns/factory-method
+    * supports the **Open/Closed Principle** by allowing easy extension of new product types without modifying existing code
+    * encapsulates object creation and defers details to subclasses, promoting flexibility and maintainability
 
-<img src="img/factory.png" width="600">
 
-- **[Abstract Factory Pattern (not pythonic)](abstractfactory/)** - Create families of related objects
+    <img src="img/factory.png" width="600">
 
-<img src="img/abstractfactory.png" width="600">
+- **[Abstract Factory Pattern (not pythonic)](abstractfactory/)** - Create families of related objects, ensuring related product objects are compatible across different themes or platforms.
 
-- **[Builder Pattern](builder/)** - Construct complex objects step by step
-- **[Singleton Pattern (not pythonic)](singleton/)** - Ensure only one instance of a class exists
+    <img src="img/abstractfactory.png" width="600">
+
+- **[Builder Pattern](builder/)** - Construct complex objects step by step. Builder is preferred over telescoping constructors for complex objects. It manages object construction step-by-step, especially for objects with many optional fields, avoiding confusion from overloaded constructors.
+
+- **[Singleton Pattern (not pythonic)](singleton/)** - Ensure only one instance of a class exists. Ensures there is only one global access point to an object.
+
+- **[Prototype](prototype/)** - ideal for cloning complex, pre-configured objects, especially when creating new instances from scratch is expensive.
 
 ### Behavioral Patterns
 - **[Observer Pattern](observer/)** - Define one-to-many dependency between objects
 - **[Strategy Pattern](strategy/)** - Define family of algorithms and make them interchangeable
 
 ### Structural Patterns
+See https://python-patterns.guide/gang-of-four/composition-over-inheritance/#solution-1-the-adapter-pattern
+
+- **[Adapter Pattern](adapter/)** - Convert interface of a class into another interface
 - **Bridge Pattern** - Separate abstraction from implementation
 - **Composite Pattern** - Compose objects into tree structures
 - **Decorator Pattern** - Add behavior to objects dynamically

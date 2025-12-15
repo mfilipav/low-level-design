@@ -1,6 +1,17 @@
 from abc import ABC, abstractmethod
 
 
+class Product(ABC):
+    """
+    The Product interface declares the operations that all concrete products
+    must implement.
+    """
+
+    @abstractmethod
+    def operation(self) -> str:
+        pass
+
+
 class Creator(ABC):
     """
     See https://refactoring.guru/design-patterns/factory-method
@@ -11,7 +22,7 @@ class Creator(ABC):
     """
 
     @abstractmethod
-    def factory_method(self):
+    def factory_method(self) -> Product:
         """
         Note that the Creator may also provide some default implementation of
         the factory method.
@@ -34,17 +45,6 @@ class Creator(ABC):
         result = f"Creator: The same creator's code has just worked with {product.operation()}"
 
         return result
-
-
-class Product(ABC):
-    """
-    The Product interface declares the operations that all concrete products
-    must implement.
-    """
-
-    @abstractmethod
-    def operation(self) -> str:
-        pass
 
 
 """
